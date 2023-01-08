@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.intro, .outro {
+  padding: 1em;
+  margin: 1em;
+  font-size: 1em;
+}
+
+.form {
+  border: solid black 5px;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 1em auto;
+}
+
+.name {
+  padding: 1em;
+  margin: 1em;
+  color: #282c34;
+}
+
+label {
+  margin: 0.5em;
+  padding: 0.5em;
+}
